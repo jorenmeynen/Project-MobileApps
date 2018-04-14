@@ -4,10 +4,10 @@ using System.Text;
 
 namespace ProjectMobileApps
 {
-    class ClassGroup
+    class Corner
     {
+        public int Corner_Id { get; set; }
         public int ClassGroup_Id { get; set; }
         public string Name { get; set; }
-        public string Description { get; set; }
     }
 }
