@@ -10,7 +10,7 @@ namespace ProjectMobileApps
         public int ClassGroupId { get; set; }
         public string Name { get; set; }
 
-        public ClassGroup ClassGroup { get; set; }
+        //public ClassGroup ClassGroup { get; set; }
 
         public ICollection<Picture> Pictures { get; set; }
     }

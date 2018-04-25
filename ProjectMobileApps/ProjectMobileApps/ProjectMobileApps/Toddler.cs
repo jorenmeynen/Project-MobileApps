@@ -11,6 +11,8 @@ namespace ProjectMobileApps
         public string Name { get; set; }
         public string email { get; set; }
 
-        public ClassGroup ClassGroup { get; set; }
+        //public ClassGroup ClassGroup { get; set; }
+
+        public ICollection<Picture> Pictures { get; set; }
     }
 }
