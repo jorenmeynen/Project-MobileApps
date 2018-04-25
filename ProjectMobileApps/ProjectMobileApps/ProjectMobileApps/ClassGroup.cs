@@ -6,7 +6,7 @@ namespace ProjectMobileApps
 {
     class ClassGroup
     {
-        public int ClassGroup_Id { get; set; }
+        public int ClassGroupId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
     }

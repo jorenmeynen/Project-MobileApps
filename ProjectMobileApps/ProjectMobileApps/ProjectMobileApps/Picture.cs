@@ -4,11 +4,13 @@ using System.Text;
 
 namespace ProjectMobileApps
 {
-    class Pictures
+    class Picture
     {
-        public int Picture_Id { get; set; }
-        public int Toddler_Id { get; set; }
-        public int Corner_Id { get; set; }
+        public int PictureId { get; set; }
+        public int ToddlerId { get; set; }
+        public Toddler Toddler { get; set; }
+        public int CornerId { get; set; }
+        public Corner Corner { get; set; }
         public string Location { get; set; }
         public string Label { get; set; }
         public string Date { get; set; }

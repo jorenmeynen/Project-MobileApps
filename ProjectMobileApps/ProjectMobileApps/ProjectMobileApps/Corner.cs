@@ -6,8 +6,9 @@ namespace ProjectMobileApps
 {
     class Corner
     {
-        public int Corner_Id { get; set; }
-        public int ClassGroup_Id { get; set; }
+        public int CornerId { get; set; }
+        public int ClassGroupId { get; set; }
+        public ClassGroup ClassGroup { get; set; }
         public string Name { get; set; }
     }
 }
