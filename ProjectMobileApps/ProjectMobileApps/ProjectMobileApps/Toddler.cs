@@ -8,8 +8,9 @@ namespace ProjectMobileApps
     {
         public int ToddlerId { get; set; }
         public int ClassGroupId { get; set; }
-        public ClassGroup ClassGroup { get; set; }
         public string Name { get; set; }
         public string email { get; set; }
+
+        public ClassGroup ClassGroup { get; set; }
     }
 }

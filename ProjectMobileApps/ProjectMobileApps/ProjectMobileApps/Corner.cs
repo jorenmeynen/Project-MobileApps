@@ -8,7 +8,10 @@ namespace ProjectMobileApps
     {
         public int CornerId { get; set; }
         public int ClassGroupId { get; set; }
-        public ClassGroup ClassGroup { get; set; }
         public string Name { get; set; }
+
+        public ClassGroup ClassGroup { get; set; }
+
+        public ICollection<Picture> Pictures { get; set; }
     }
 }
