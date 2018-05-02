@@ -8,4 +8,5 @@
         <Label Text="Welcome to Xamarin Forms and Prism!" />
     </StackLayout>
 
+    
 </ContentPage>
