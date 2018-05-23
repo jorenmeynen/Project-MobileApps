@@ -7,6 +7,7 @@ namespace ProjectMobileApps.Views
         public ToddlerListPage()
         {
             InitializeComponent();
+            //myLocalImage.Source = ImageSource.FromFile("cameraatjeLogo.png");
         }
     }
 }
