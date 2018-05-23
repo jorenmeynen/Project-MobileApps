@@ -33,6 +33,7 @@ namespace ProjectMobileApps
             containerRegistry.RegisterForNavigation<MainPage>();
             containerRegistry.RegisterForNavigation<MenuPage>();
             containerRegistry.RegisterForNavigation<ToddlerListPage>();
+            containerRegistry.RegisterForNavigation<AdultLoginPage>();
         }
     }
 }

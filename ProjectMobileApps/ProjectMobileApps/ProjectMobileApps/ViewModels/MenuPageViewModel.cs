@@ -15,11 +15,16 @@ namespace ProjectMobileApps.ViewModels
         {
             Title = "Menu test Page";
 
-            BackCommand = new DelegateCommand(() =>
+            ToToddlerListCommand = new DelegateCommand(() =>
             {
-                NavigationService.GoBackAsync();
+                NavigationService.NavigateAsync("ToddlerListPage");
+            });
+            ToAdultLoginCommand = new DelegateCommand(() =>
+            {
+                NavigationService.NavigateAsync("AdultLoginPage");
             });
         }
-        public ICommand BackCommand { get; private set; }
+        public ICommand ToToddlerListCommand { get; private set; }
+        public ICommand ToAdultLoginCommand { get; private set; }
     }
 }
