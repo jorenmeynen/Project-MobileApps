@@ -31,6 +31,7 @@ namespace ProjectMobileApps
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage>();
+            containerRegistry.RegisterForNavigation<MenuPage>();
         }
     }
 }
