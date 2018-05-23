@@ -6,7 +6,7 @@ using Prism.Ioc;
 
 namespace ProjectMobileApps.Droid
 {
-    [Activity(Label = "Het Cameraatje", Icon = "@mipmap/cameraatje_text", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "Het Cameraatje", Icon = "@mipmap/cameraatje", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle bundle)

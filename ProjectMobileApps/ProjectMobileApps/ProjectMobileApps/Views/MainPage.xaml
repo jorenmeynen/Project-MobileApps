@@ -4,9 +4,10 @@
              x:Class="ProjectMobileApps.Views.MainPage">
 
     <StackLayout >
-        <Image x:Name="imgCameraatje" Source="cameraatje.png"/>
+        <Image x:Name="imgCameraatje" Source="cameraatjeLogo.png"/>
         <Button Text="Start" Command="{Binding NavigateCommand}"
-                HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+                WidthRequest="200" HeightRequest="100"/>
     </StackLayout>
 
 </ContentPage>
