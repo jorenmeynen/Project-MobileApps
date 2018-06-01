@@ -6,15 +6,14 @@ using System.Text;
 
 namespace ProjectMobileApps.Models
 {
-    class Picture
+    class Login
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int PictureId { get; set; }
-        public Toddler ToddlerId { get; set; }
-        public Corner CornerId { get; set; }
-        public string Label { get; set; }
-        public string Date { get; set; }
-        public string Comment { get; set; }
+        public int LoginId { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+
+        public Adult Name { get; set; }
     }
 }

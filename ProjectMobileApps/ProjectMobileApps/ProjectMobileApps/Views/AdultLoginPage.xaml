@@ -5,5 +5,12 @@
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="ProjectMobileApps.Views.AdultLoginPage"
              Title="{Binding Title}">
-  
+
+    <StackLayout >
+        <Image x:Name="imgCameraatje" Source="cameraatjeLogo.png"/>
+        <Button Text="Start" Command="{Binding NavigateCommand}"
+                HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+                WidthRequest="200" HeightRequest="100"/>
+    </StackLayout>
+
 </ContentPage>

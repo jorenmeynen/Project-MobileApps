@@ -6,15 +6,16 @@ using System.Text;
 
 namespace ProjectMobileApps.Models
 {
-    class ClassGroup
+    class Adult
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int ClassGroupId { get; set; }
-        public int TeacherId { get; set; }
-        public Adult Adult { get; set; }
+        public int AdultId { get; set; }
+        public int LoginId { get; set; }
+        public Login Login { get; set; }
         public string Name { get; set; }
-        
-        public ICollection<Corner> Corners { get; set; }
+
+        public ICollection<Toddler> Toddlers { get; set; }
+        public ICollection<ClassGroup> ClassGroups { get; set; }
     }
 }
