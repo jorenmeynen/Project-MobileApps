@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+//Code: Joren Meynen
 namespace ProjectMobileApps.ViewModels
 {
     public class MainPageViewModel : ViewModelBase
@@ -21,7 +22,7 @@ namespace ProjectMobileApps.ViewModels
         }
         private void NavigateToBlog()
         {
-            NavigationService.NavigateAsync("MenuPage");
+            NavigationService.NavigateAsync("AccountPage");
         }
     }
 }

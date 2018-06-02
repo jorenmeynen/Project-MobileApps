@@ -5,15 +5,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Input;
-
+//Code: Joren Meynen
 namespace ProjectMobileApps.ViewModels
 {
-	public class MenuPageViewModel : ViewModelBase
+	public class AccountPageViewModel : ViewModelBase
 	{
-        public MenuPageViewModel(INavigationService navigationService)
+        public AccountPageViewModel(INavigationService navigationService)
             : base(navigationService)
         {
-            Title = "Menu test Page";
+            Title = "Account Page";
 
             ToToddlerListCommand = new DelegateCommand(() =>
             {

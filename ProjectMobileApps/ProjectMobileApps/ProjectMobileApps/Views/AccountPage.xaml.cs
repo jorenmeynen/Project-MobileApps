@@ -2,9 +2,9 @@
 
 namespace ProjectMobileApps.Views
 {
-    public partial class MenuPage : ContentPage
+    public partial class AccountPage : ContentPage
     {
-        public MenuPage()
+        public AccountPage()
         {
             InitializeComponent();
         }

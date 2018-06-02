@@ -103,7 +103,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Accounts\Account kleuter.png" />
+    <AndroidResource Include="Resources\drawable\Account_Kleuter.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\mipmap-hdpi\cameraatje.png" />
@@ -136,40 +136,38 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\cameraatje_text.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cameraatjeLogo.png" />
+    <AndroidResource Include="Resources\drawable\LogoCameraatje.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Accounts\Account thuis.png" />
+    <AndroidResource Include="Resources\drawable\Account_Thuis.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Corners\Boekenhoek.png" />
+    <AndroidResource Include="Resources\drawable\HoekBoeken.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Corners\Bouwhoek.png" />
+    <AndroidResource Include="Resources\drawable\HoekBouw.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Corners\Kleihoek.png" />
+    <AndroidResource Include="Resources\drawable\HoekKlei.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Corners\Knutselhoek.png" />
+    <AndroidResource Include="Resources\drawable\HoekKnutsel.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Corners\Poppenhoek.png" />
+    <AndroidResource Include="Resources\drawable\HoekPoppen.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Corners\Spelhoek.png" />
+    <AndroidResource Include="Resources\drawable\HoekSpel.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Corners\Tekenhoek.png" />
+    <AndroidResource Include="Resources\drawable\HoekTeken.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Corners\Verkleedhoek.png" />
+    <AndroidResource Include="Resources\drawable\HoekVerkleed.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Corners\Zandbak.png" />
+    <AndroidResource Include="Resources\drawable\HoekZandbak.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\drawable\Toddlers\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
