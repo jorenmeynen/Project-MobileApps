@@ -6,9 +6,18 @@
              x:Class="ProjectMobileApps.Views.AdultLoginPage"
              Title="{Binding Title}">
 
-    <StackLayout >
-        <Image x:Name="imgCameraatje" Source="cameraatjeLogo.png"/>
-        <Button Text="Start" Command="{Binding NavigateCommand}"
+    <StackLayout Margin="20">
+        <Label Text="Email"/>
+        <Entry Keyboard="Email"
+               Placeholder="Enter email address"
+               Text="{Binding Email}"/>
+
+        <Label Text="Password"/>
+        <Entry Keyboard="Email"
+               Placeholder="Enter password"
+               Text="{Binding Password}"/>
+        
+        <Button Text="Login" Command="{Binding SignInCommand}"
                 HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
                 WidthRequest="200" HeightRequest="100"/>
     </StackLayout>

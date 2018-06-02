@@ -6,7 +6,7 @@ using System.Text;
 
 namespace ProjectMobileApps.Models
 {
-    class ClassGroup
+    public class ClassGroup
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

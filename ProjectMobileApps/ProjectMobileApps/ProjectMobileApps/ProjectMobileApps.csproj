@@ -5,7 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\ClassGroup.cs" />
+    <Compile Remove="Models\Login.cs" />
+    <Compile Remove="Models\Parent.cs" />
+    <Compile Remove="Models\Teacher.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FirebaseAuthentication.net" Version="3.0.7" />
+    <PackageReference Include="FirebaseStorage.net" Version="1.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.0" />
+    <PackageReference Include="Xam.Plugin.Media" Version="4.0.0.9" />
     <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />
     <PackageReference Include="Prism.Unity.Forms" Version="7.0.0.396" />
   </ItemGroup>
