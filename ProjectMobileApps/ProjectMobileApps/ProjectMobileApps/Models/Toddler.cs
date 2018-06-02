@@ -11,10 +11,13 @@ namespace ProjectMobileApps.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ToddlerId { get; set; }
-        public int AdultId { get; set; }
-        public Adult Adult { get; set; }
-        public string Name { get; set; }
+        public int ParentId { get; set; }
+        public int TeacherId { get; set; }
+        public string ToddlerName { get; set; }
+        public string ToddlerImage { get; set; }
 
+        public Parent Parent { get; set; }
+        public Teacher Teacher { get; set; }
         public ICollection<Picture> Pictures { get; set; }
     }
 }

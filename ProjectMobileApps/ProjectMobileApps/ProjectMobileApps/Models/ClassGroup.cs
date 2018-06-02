@@ -12,9 +12,9 @@ namespace ProjectMobileApps.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ClassGroupId { get; set; }
         public int TeacherId { get; set; }
-        public Adult Adult { get; set; }
-        public string Name { get; set; }
+        public string ClassGroupName { get; set; }
         
+        public Teacher Teacher { get; set; }
         public ICollection<Corner> Corners { get; set; }
     }
 }

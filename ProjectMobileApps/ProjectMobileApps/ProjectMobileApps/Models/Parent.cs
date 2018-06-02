@@ -6,15 +6,15 @@ using System.Text;
 
 namespace ProjectMobileApps.Models
 {
-    class Login
+    class Parent
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int ParentId { get; set; }
         public int LoginId { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
+        public string ParentName { get; set; }
 
-        public Parent Parent { get; set; }
-        public Teacher Teacher { get; set; }
+        public Login Login { get; set; }
+        public ICollection<Toddler> Toddlers { get; set; }
     }
 }
