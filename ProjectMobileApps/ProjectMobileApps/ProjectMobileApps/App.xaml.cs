@@ -5,6 +5,8 @@ using ProjectMobileApps.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Prism.Unity;
+using ProjectMobileApps.Contracts;
+using ProjectMobileApps.Data;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace ProjectMobileApps
@@ -33,6 +35,7 @@ namespace ProjectMobileApps
             containerRegistry.RegisterForNavigation<MainPage>();
             containerRegistry.RegisterForNavigation<AccountPage>();
             containerRegistry.RegisterForNavigation<ToddlerListPage>();
+            containerRegistry.RegisterInstance<ICameraatjeDbContext>(new CameraatjeDbContext("Data Source=cameraatjedb.database.windows.net;Initial Catalog=cameraatjeDB;Integrated Security=False;User ID=eloict;Password=Password0;Connect Timeout=60;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"));
             containerRegistry.RegisterForNavigation<AdultLoginPage>();
         }
     }
