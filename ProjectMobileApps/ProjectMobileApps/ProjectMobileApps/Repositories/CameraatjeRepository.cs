@@ -17,6 +17,7 @@ namespace ProjectMobileApps.Repositories
             this.dbContext = dbContext;
         }
 
+
         public async Task<List<Toddler>> GetToddlersAsync()
         {
             return await dbContext.Toddlers.ToListAsync();
@@ -31,6 +32,7 @@ namespace ProjectMobileApps.Repositories
         {
             return await dbContext.Pictures.ToListAsync();
         }
+
 
         public async Task<int> SavePictureAsync(Picture picture)
         {
