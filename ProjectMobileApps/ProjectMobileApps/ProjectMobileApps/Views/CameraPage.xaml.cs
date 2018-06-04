@@ -2,9 +2,9 @@
 
 namespace ProjectMobileApps.Views
 {
-    public partial class CornerPage : ContentPage
+    public partial class CameraPage : ContentPage
     {
-        public CornerPage()
+        public CameraPage()
         {
             InitializeComponent();
         }

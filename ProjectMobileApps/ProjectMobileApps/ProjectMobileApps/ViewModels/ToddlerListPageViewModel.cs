@@ -20,9 +20,8 @@ namespace ProjectMobileApps.ViewModels
             Title = "Kleuterlijst";
 
             this.cameraatjeRepository = cameraatjeRepository;
-
-
         }
+
         private IList<Toddler> toddlers;
         public IList<Toddler> Toddlers
         {
@@ -39,8 +38,8 @@ namespace ProjectMobileApps.ViewModels
                 if (SetProperty(ref selectedToddler, value) && selectedToddler != null)
                 {
                     var p = new NavigationParameters();
-                    p.Add("Toddler", SelectedToddler);
-                    NavigationService.NavigateAsync("CornerPage", p);
+                    p.Add("toddler", SelectedToddler);
+                    NavigationService.NavigateAsync("CameraPage", p);
                     SelectedToddler = null;
                 }
             }
