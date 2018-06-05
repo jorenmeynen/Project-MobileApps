@@ -6,7 +6,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-//Code: Joren Meynen
 namespace ProjectMobileApps.ViewModels
 {
     public class MainPageViewModel : ViewModelBase

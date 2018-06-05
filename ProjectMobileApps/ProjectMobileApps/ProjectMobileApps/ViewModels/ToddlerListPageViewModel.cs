@@ -6,8 +6,7 @@ using ProjectMobileApps.Contracts;
 using ProjectMobileApps.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-
+using System.Linq;//Joren Meynen
 namespace ProjectMobileApps.ViewModels
 {
 	public class ToddlerListPageViewModel : ViewModelBase
