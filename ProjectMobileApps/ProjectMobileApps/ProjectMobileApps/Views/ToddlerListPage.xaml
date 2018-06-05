@@ -11,8 +11,8 @@
             <DataTemplate>
                 <ViewCell>
                     <StackLayout Orientation="Horizontal">
-                        <Image Source="{Binding ToddlerImage}">
-                        </Image>
+                        <Image Source="{Binding ToddlerImage}"/>
+                        <Label Text="{Binding ToddlerName}"/>
                     </StackLayout>
                 </ViewCell>
             </DataTemplate>
