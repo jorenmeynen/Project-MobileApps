@@ -5,7 +5,7 @@
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="ProjectMobileApps.Views.CameraPage"
              Title="{Binding Title}">
-
+    <!--Joren Meynen-->
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
         <Image Source="{Binding ToddlerImage}" HeightRequest="50"/>
         <Label Text="{Binding ToddlerName}"/>

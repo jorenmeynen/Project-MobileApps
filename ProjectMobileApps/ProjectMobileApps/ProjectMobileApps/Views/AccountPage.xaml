@@ -5,7 +5,7 @@
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="ProjectMobileApps.Views.AccountPage"
              Title="{Binding Title}">
-
+<!--Joren Meynen-->
     <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Padding="10">
         <Image x:Name="imgAccountToddler" Source="Account_Kleuter.png" HeightRequest="200" WidthRequest="200">
             <Image.GestureRecognizers>

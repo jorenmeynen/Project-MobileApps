@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProjectMobileApps.Models;
 using ProjectMobileApps.Contracts;
-
+//Joren Meynen
 namespace ProjectMobileApps.Data
 {
     public class CameraatjeDbContext : DbContext, ICameraatjeDbContext

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-
+//Joren Meynen
 namespace ProjectMobileApps.Models
 {
     public class Picture

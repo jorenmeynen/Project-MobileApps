@@ -4,7 +4,7 @@ using Prism.Navigation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-
+//Joren Meynen
 namespace ProjectMobileApps.ViewModels
 {
 	public class AdultLoginPageViewModel : ViewModelBase

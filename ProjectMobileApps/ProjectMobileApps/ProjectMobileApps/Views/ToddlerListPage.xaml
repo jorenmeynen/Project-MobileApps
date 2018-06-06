@@ -5,7 +5,7 @@
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="ProjectMobileApps.Views.ToddlerListPage"
              Title="{Binding Title}">
-
+    <!--Joren Meynen-->
     <ListView ItemsSource="{Binding Toddlers}" SelectedItem="{Binding SelectedToddler, Mode=TwoWay}">
         <ListView.ItemTemplate>
             <DataTemplate>

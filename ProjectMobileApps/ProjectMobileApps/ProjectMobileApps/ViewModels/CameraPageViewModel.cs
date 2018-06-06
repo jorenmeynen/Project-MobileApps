@@ -16,11 +16,12 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using Plugin.Media.Abstractions;
 using ProjectMobileApps.Models;
-
+//Leandro Cardinaels & Joren Meynen
 namespace ProjectMobileApps.ViewModels
 {
 	public class CameraPageViewModel : ViewModelBase
 	{
+        //Joren Meynen
         IPageDialogService _dialogService;
 
         public CameraPageViewModel(INavigationService navigationService, IPageDialogService dialogService)
@@ -108,6 +109,9 @@ namespace ProjectMobileApps.ViewModels
            } 
            ); */
 
+
+
+        //Leandro Cardinaels
             try
             {
                 string ApiKey = "AIzaSyBGm7LABs10dXNcZQ5CTeRvuP1zxGUYfDA";

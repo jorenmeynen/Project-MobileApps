@@ -5,7 +5,7 @@
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="ProjectMobileApps.Views.AdultLoginPage"
              Title="{Binding Title}">
-
+    <!--Joren Meynen-->
     <StackLayout Margin="20">
         <Label Text="Email"/>
         <Entry Keyboard="Email" Placeholder="Enter email address" Text="{Binding Email}"/>
