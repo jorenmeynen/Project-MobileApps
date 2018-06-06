@@ -14,6 +14,6 @@ namespace ProjectMobileApps.Models
 
         //public int ClassGroupId { get; set; }
         //public ClassGroup ClassGroup { get; set; }
-        public ICollection<Picture> Pictures { get; set; }
+        //public ICollection<Picture> Pictures { get; set; }
     }
 }

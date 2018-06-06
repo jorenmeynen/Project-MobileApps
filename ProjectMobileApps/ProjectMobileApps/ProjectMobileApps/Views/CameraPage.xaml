@@ -7,7 +7,8 @@
              Title="{Binding Title}">
 
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-        <Label Text="{Binding Title}" />
+        <Image Source="{Binding ToddlerImage}" HeightRequest="50"/>
+        <Label Text="{Binding ToddlerName}"/>
         <Button Text ="{Binding ButtonTitle}" Command="{Binding TakePhotoCommand}"/>
 
     </StackLayout>

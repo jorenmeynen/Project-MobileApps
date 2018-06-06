@@ -5,8 +5,6 @@
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="ProjectMobileApps.Views.MainPage"
              Title="{Binding Title}">
-    
-    <!--Code: Joren Meynen-->
     <StackLayout >
         <Image x:Name="imgCameraatje" Source="LogoCameraatje.png" WidthRequest="300" HeightRequest="300"/>
         <Button Text="Start" Command="{Binding NavigateCommand}"
@@ -15,3 +13,5 @@
     </StackLayout>
 
 </ContentPage>
+    
+    

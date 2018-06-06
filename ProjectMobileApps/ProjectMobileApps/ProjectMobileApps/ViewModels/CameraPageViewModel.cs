@@ -15,6 +15,7 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using Plugin.Media.Abstractions;
+using ProjectMobileApps.Models;
 
 namespace ProjectMobileApps.ViewModels
 {
@@ -37,22 +38,40 @@ namespace ProjectMobileApps.ViewModels
             get { return source; }
             set { SetProperty(ref source, value); }
         }
-
-        private string _title;
+        
 
         private string _buttonTitle = "Take a Photo";
 
         public string ButtonTitle
         {
             get { return _buttonTitle; }
-            set { SetProperty(ref _title, value); }
+            set { SetProperty(ref _buttonTitle, value); }
         }
 
+        private string toddlerName;
+        private Toddler toddler;
+
+        public string ToddlerName
+        {
+            get { return toddlerName; }
+            set { SetProperty(ref toddlerName, value); }
+        }
+
+        private string toddlerImage;
+        public string ToddlerImage
+        {
+            get { return toddlerImage; }
+            set { SetProperty(ref toddlerImage, value); }
+        }
 
         public override void OnNavigatedTo(NavigationParameters parameters)
         {
-            if (parameters.ContainsKey("title"))
-                Title = (string)parameters["title"] + " and Prism";
+            if (parameters.ContainsKey("toddler"))
+            {
+                toddler = (Toddler)parameters["toddler"];
+                ToddlerName = toddler.ToddlerName;
+                ToddlerImage = toddler.ToddlerImage;
+            }
         }
 
         public DelegateCommand TakePhotoCommand { get; set; }
